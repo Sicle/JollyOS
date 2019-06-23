@@ -32,7 +32,6 @@ local _getOrientation = function()
     return facing
 end
 
-
 print( _getOrientation() )
 
 
