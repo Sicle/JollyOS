@@ -1,6 +1,11 @@
 local _pos = {}
 _pos.x, _pos.y, _pos.z = gps.locate()
 
+facingDirections =
+{
+
+}
+
 
 local _getOrientation = function()
     local loc1 = vector.new( gps.locate( 2, false ) )
